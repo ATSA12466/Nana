@@ -16,6 +16,15 @@ ul{
   margin:0;
   padding:0;
 }
+/*Default style (for destop)*/
+header nav ul {
+  display:flex;
+  justify content:space-around;}
+/* mobile screens (up to 600ps)*/
+@media(max-width:600px) {
+  header nav ul {
+    flex-directio:column;
+    align-items:center;}
 
 .button_1{
   height:38px;
